@@ -1,0 +1,22 @@
+{
+  "name": "sender-mail",
+  "description": "API para envio de e-mails assíncrono",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Jean Sumara",
+      "email": "jean_sumara@icloud.com"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "*",
+    "php-amqplib/php-amqplib": ">=2.6.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sumara\\SenderMail\\": [
+        "src"
+      ]
+    }
+  }
+}
